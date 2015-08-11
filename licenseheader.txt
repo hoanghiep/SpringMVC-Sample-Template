@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Bo Y Te Calendar
+${licensePrefix}Doi du an Bo Y Te - Phong san pham dieu hanh tac nghiep - BU Hanh chinh cong ${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>

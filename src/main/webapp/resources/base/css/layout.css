@@ -1,0 +1,241 @@
+/*
+ * Bo Y Te Calendar
+ * Doi du an Bo Y Te - Phong san pham dieu hanh tac nghiep - BU Hanh chinh cong  * 
+ */
+/* 
+    Created on : Nov 15, 2014, 9:29:04 PM
+    Author     : hieptran
+*/
+a{
+    color: #0099ff;
+    text-decoration: none;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.font80p{
+    font-size: 80%;
+}
+.font85p{
+    font-size: 85%;
+}
+.font90p{
+    font-size: 90%;
+}
+.font95p{
+    font-size: 95%;
+}
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.margin-left-20{
+    margin-left: 20px !important;
+}
+
+.margin-right-5{
+    margin-right: 5px !important;
+}
+
+.pad-top5{
+    padding-top: 5px !important;
+}
+.pad-bottom5{
+    padding-bottom: 5px !important;
+}
+
+.pad5-bsz{
+    padding: 5px;
+    box-sizing: border-box;
+}
+        
+.width-80{
+    width: 80px;
+}
+.width-100{
+    width: 100px;
+}
+
+.width80p{
+    width: 80%;
+    max-width: 80%;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.width20p{
+    width: 20%;
+    max-width: 20%;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.width70p{
+    width: 80%;
+    max-width: 80%;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.width30p{
+    width: 20%;
+    max-width: 20%;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.no-record{
+    padding-left: 5px;
+    font-size: 85%;
+    font-style: italic;
+    color:red;
+}
+
+.border-none{
+    border : none !important;
+}
+
+i.description{
+    font-style: italic;
+    font-size: 90%;
+    color: gray;
+}
+.vertical-align-top{
+    vertical-align : top !important;
+}
+
+.margin5{
+    margin:5px;
+}
+.margin-left-5{
+    margin-left:5px !important;
+}
+
+.width100p{
+    width: 100%;
+    max-width: 100%;
+}
+.width50p{
+    width: 50%;
+}
+.width70p{
+    width: 70%;
+}
+.error{
+    color : red;
+    padding: 6px;
+    line-height: 21px;
+}
+.required{
+    color : red;
+    margin: 2px;
+}
+.text-center{
+    text-align: center;
+}
+body {
+    height: 100%;
+}
+
+*{
+    font-family: Helvetica,Arial,sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+
+.clear{
+    clear: both;
+}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.width-200{
+    width: 200px;
+}
+
+h3, .panel-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #838383;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#app-layout {
+    height: 100%;
+    min-height: 580px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#top{
+    height: 56px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-bottom: solid 1px #eee;
+}
+
+#horizon-menu{
+    height: 32px;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+     border-bottom: solid 1px #eee;
+}
+
+#container{
+    height: auto;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    box-sizing:border-box;
+}

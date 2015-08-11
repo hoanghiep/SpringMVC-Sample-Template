@@ -1,0 +1,6 @@
+{
+    "ternjs": {
+        "exclude": ["node_modules/**", "**/build/**", "document/**", "script/**", "target/**"],
+        "include": ["**/*.js"]
+    }
+}

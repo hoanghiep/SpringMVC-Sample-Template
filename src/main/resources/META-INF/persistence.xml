@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.viettel_calendar_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.viettel.calendar.beans.Timeline</class>
+    <class>com.viettel.calendar.beans.Department</class>
+    <class>com.viettel.calendar.beans.DeptType</class>
+    <class>com.viettel.calendar.beans.PrepareTimeline</class>
+    <class>com.viettel.calendar.beans.MeetingRoom</class>
+    <class>com.viettel.calendar.beans.GroupMember</class>
+    <class>com.viettel.calendar.beans.Groups</class>
+    <class>com.viettel.calendar.beans.TimelineLog</class>
+    <class>com.viettel.calendar.beans.LeaderTimeline</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@10.33.12.86:1521:orcl"/>
+      <property name="javax.persistence.jdbc.password" value="CALENDAR_BYT"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.user" value="CALENDAR_BYT"/>
+    </properties>
+  </persistence-unit>
+</persistence>
