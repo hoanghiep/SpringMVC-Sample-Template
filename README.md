@@ -123,3 +123,6 @@ Hướng dẫn cài đặt project
 ### Quản lý công việc và thông tin khác 
 
 * [http://www.slicktasks.com/](http://www.slicktasks.com/)
+
+Mọi yêu cầu hỗ trợ, đóng góp ý kiến, donate xin vui lòng mail đến địa chỉ
+<mailto:hoanghieptran86@gmail.com>
