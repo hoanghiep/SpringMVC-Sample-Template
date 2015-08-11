@@ -99,7 +99,7 @@ Hướng dẫn cài đặt project
 ### Các công cụ cần thiết?
 
 * [apache-maven-3.2.3](http://maven.apache.org/download.cgi) Hoặc các bản 3.x đều được
-* [jdk 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) Bắt buộc 1.8 vì sau này có thể sử dụng một số tính năng mà chỉ 1.8 mới có
+* [jdk 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) Hoặc 1.7
 * [apache-tomcat-8.0.8](http://tomcat.apache.org/download-80.cgi) Hoặc các phiên bản 7.x
 * [MySQL](http://dev.mysql.com/downloads/windows/installer/) CSDL, có thể cài đặt thêm các [công cụ quản lý](http://dev.mysql.com/downloads/calendar/)
 * Netbeans IDE lập trình bản 7.x hoặc 8.x
@@ -108,7 +108,6 @@ Hướng dẫn cài đặt project
 
 ### Cách checkout và commit code với git và Source Tree
 
-* Anh Quảng viết hộ em nhé, vì em ko có window sợ hướng dẫn liều
 
 ### Cài đặt và chạy project 
 
