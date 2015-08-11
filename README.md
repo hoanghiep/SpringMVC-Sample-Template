@@ -1,5 +1,17 @@
 # README
 
+Giới thiệu chung
+
+- Project kết hợp springmvc - hibernate - oracle sử dụng cho các dự án nhỏ, toàn bộ cấu hình spring được thực hiện bằng ANOTATION nên tiện lợi và dễ quản lý hơn so với việc sử dụng xml
+- Project cũng có nhiều custom cấu hình liên quan đến kết nối csdl (sử dụng connection pool) cũng như custom lại các phần trong spring security để phục vụ việc chứng thực người dùng theo cách tùy biến hơn.
+- Các công nghệ sử dụng trong project
+	[springmvc4](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html)
+	[hibernate](http://hibernate.org)
+	[hikaricp](https://github.com/brettwooldridge/HikariCP)
+	[reactjs](http://facebook.github.io/react)
+- Phần hỗ trợ
+	[gruntjs](http://gruntjs.com)
+
 Hướng dẫn cài đặt project
 
 ### Phiên bản
